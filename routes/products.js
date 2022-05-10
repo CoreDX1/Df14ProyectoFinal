@@ -5,7 +5,7 @@ const router = new Router()
 
 
 router.get('/', (req, res) => {
-    res.render('index')
+    res.render('./products/index')
 })
 
 module.exports = router

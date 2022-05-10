@@ -2,9 +2,9 @@ const express = require('express')
 const productosRoutes = require('./routes/products')
 const app = express()
 
-app.use( express.static(( __dirname, './static')));
+app.use("/static", express.static('./static/'));
 app.set('view engine', 'ejs')
-app.set('views', './public')
+app.set('views', './views')
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
