@@ -18,8 +18,13 @@ router.post('/', (req, res) => {
     try{
         const data = fs.readFileSync(__dirname + '/../products.json', 'utf8')
         let json = JSON.parse(data)
-        let oj = req.body
-        json.push(oj)
+        // let oj = req.body
+        let productsNew = {
+            "name" : req.body.name,
+            "id" : json.length + 1
+        }
+        console.log(data.length)
+        json.push(productsNew)
         try{
             const write = fs.writeFileSync(__dirname + '/../products.json', JSON.stringify(json, null, 2), 'utf8')
             console.log(json)
