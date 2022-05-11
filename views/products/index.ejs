@@ -8,7 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <div>
+        <h1>Hola mundo</h1>
+        <% data.forEach((pr) => {%>
+            <a class="arry"><%= pr.name %></a>
+            <br>
+        <% })%>
+    </div>
     <script src="/static/products/index.js"></script>
 </body>
 </html>
