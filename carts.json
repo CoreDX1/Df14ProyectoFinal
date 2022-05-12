@@ -6,41 +6,21 @@
       {
         "id": 2,
         "timestamp": "15:40",
-        "nombre": "Placa de video",
-        "descripcion": "213412asfa",
-        "foto": "imagen-2",
-        "precio": 6000,
-        "stock": true
+        "nombre": "Cambiado",
+        "descripcion": "Cambiado",
+        "foto": "Cambiado",
+        "precio": "Cambiado",
+        "stock": "Cambiado"
       }
     ]
   },
   {
+    "id": 2,
+    "timestamp": "22:11",
+    "productos": []
+  },
+  {
     "id": 3,
-    "timestamp": "22:11",
-    "productos": []
-  },
-  {
-    "id": 4,
-    "timestamp": "22:11",
-    "productos": []
-  },
-  {
-    "id": 5,
-    "timestamp": "22:11",
-    "productos": []
-  },
-  {
-    "id": 6,
-    "timestamp": "22:11",
-    "productos": []
-  },
-  {
-    "id": 8,
-    "timestamp": "22:11",
-    "productos": []
-  },
-  {
-    "id": 10,
     "timestamp": "22:11",
     "productos": []
   }

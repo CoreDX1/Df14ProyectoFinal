@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "timestamp": "15:40",
     "nombre": "Placa de video",
     "descripcion": "213412asfa",
@@ -9,9 +9,18 @@
     "stock": true
   },
   {
+    "id": 2,
+    "timestamp": "15:40",
+    "nombre": "Cambiado",
+    "descripcion": "Cambiado",
+    "foto": "Cambiado",
+    "precio": "Cambiado",
+    "stock": "Cambiado"
+  },
+  {
     "id": 3,
     "timestamp": "15:40",
-    "nombre": "Placa de video",
+    "nombre": "Placa de sonido",
     "descripcion": "213412asfa",
     "foto": "imagen-2",
     "precio": 6000,
@@ -19,16 +28,7 @@
   },
   {
     "id": 4,
-    "timestamp": "23:18",
-    "nombre": "Placa de video",
-    "descripcion": "213412asfa",
-    "foto": "imagen-2",
-    "precio": 6000,
-    "stock": true
-  },
-  {
-    "id": 6,
-    "timestamp": "23:20",
+    "timestamp": "23:44",
     "nombre": "Placa de video",
     "descripcion": "213412asfa",
     "foto": "imagen-2",
