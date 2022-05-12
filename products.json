@@ -1,47 +1,29 @@
 [
-  {
-    "id": 1,
-    "timestamp": "15:39",
-    "nombre": "Mouse pad",
-    "descripcion": "213412asfa",
-    "foto": "imagen-2",
-    "precio": 4000,
-    "stock": true
-  },
-  {
-    "id": 2,
-    "timestamp": "15:40",
-    "nombre": "Teclado",
-    "descripcion": "213412asfa",
-    "foto": "imagen-2",
-    "precio": 6000,
-    "stock": true
-  },
-  {
-    "id": 3,
-    "timestamp": "15:40",
-    "nombre": "Placa de video",
-    "descripcion": "213412asfa",
-    "foto": "imagen-2",
-    "precio": 6000,
-    "stock": true
-  },
-  {
-    "id": 4,
-    "timestamp": "15:40",
-    "nombre": "Placa de sonido",
-    "descripcion": "213412asfa",
-    "foto": "imagen-2",
-    "precio": 9000,
-    "stock": true
-  },
-  {
-    "id": 5,
-    "timestamp": "15:40",
-    "nombre": "Placa de red",
-    "descripcion": "213412asfa",
-    "foto": "imagen-2",
-    "precio": 1000,
-    "stock": true
-  }
+      {
+        "id": 1,
+        "timestamp": "15:40",
+        "nombre": "Teclado",
+        "descripcion": "213412asfa",
+        "foto": "imagen-2",
+        "precio": 6000,
+        "stock": true
+      },
+      {
+        "id": 2,
+        "timestamp": "15:40",
+        "nombre": "Placa de video",
+        "descripcion": "213412asfa",
+        "foto": "imagen-2",
+        "precio": 6000,
+        "stock": true
+      },
+      {
+        "id": 3,
+        "timestamp": "15:40",
+        "nombre": "Placa de video",
+        "descripcion": "213412asfa",
+        "foto": "imagen-2",
+        "precio": 6000,
+        "stock": true
+      }
 ]

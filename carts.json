@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "timestamp": "20:58",
+    "productos": [
+      {
+        "id": 1,
+        "timestamp": "15:40",
+        "nombre": "Teclado",
+        "descripcion": "213412asfa",
+        "foto": "imagen-2",
+        "precio": 6000,
+        "stock": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "timestamp": "20:58",
+    "productos": []
+  },
+  {
+    "id": 4,
+    "timestamp": "20:58",
+    "productos": []
+  },
+  {
+    "id": 5,
+    "timestamp": "20:58",
+    "productos": []
+  }
+]
