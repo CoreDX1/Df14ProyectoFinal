@@ -89,9 +89,4 @@ router.delete('/:id', (req, res) => {
 
 })
 
-// router.delete('/:id', (req, res) => {
-//     console.log(req.query.admin)
-//     console.log(req.params.id)
-// })
-
 module.exports = router
