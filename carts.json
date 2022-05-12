@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "timestamp": "20:58",
+    "timestamp": "22:9",
     "productos": [
       {
-        "id": 1,
+        "id": 2,
         "timestamp": "15:40",
-        "nombre": "Teclado",
+        "nombre": "Placa de video",
         "descripcion": "213412asfa",
         "foto": "imagen-2",
         "precio": 6000,
@@ -16,17 +16,37 @@
   },
   {
     "id": 3,
-    "timestamp": "20:58",
+    "timestamp": "22:11",
+    "productos": []
+  },
+  {
+    "id": 3,
+    "timestamp": "22:11",
     "productos": []
   },
   {
     "id": 4,
-    "timestamp": "20:58",
+    "timestamp": "22:11",
     "productos": []
   },
   {
     "id": 5,
-    "timestamp": "20:58",
+    "timestamp": "22:11",
+    "productos": []
+  },
+  {
+    "id": 6,
+    "timestamp": "22:11",
+    "productos": []
+  },
+  {
+    "id": 8,
+    "timestamp": "22:11",
+    "productos": []
+  },
+  {
+    "id": 10,
+    "timestamp": "22:11",
     "productos": []
   }
 ]

@@ -5,32 +5,27 @@ const router = new Router()
 
 
 
-router.get('/', (req, res) => {
-    // if (req.params.id) {
-    //     try{
-    //         const data = fs.readFileSync(__dirname + '/../products.json', 'utf8')
-    //         let id = req.params.id
-    //         let objeto = JSON.parse(data)
-    //         let objetoNew = objeto[id - 1]
-    //         console.log(objetoNew)
-    //         res.render('./products/index.ejs', {data:[objetoNew]})
-    //     }catch(err) {
-    //         console.log('Error al leer')
-    //     }
-    // }else{
-    //     try{
-    //         const data = fs.readFileSync(__dirname + '/../products.json', 'utf8')
-    //         res.render('./products/index.ejs', {data:JSON.parse(data)})
-    //     }catch(err) {
-    //         console.log('Error al leer')
-    //     }
-    // }
+router.get('/:id?', (req, res) => {
+    if (req.params.id) {
         try{
             const data = fs.readFileSync(__dirname + '/../products.json', 'utf8')
-            res.render('./products/index.ejs', {data:JSON.parse(data)})
-        }catch(err) {
+            const id = req.params.id - 1
+            const jsonData = JSON.parse(data)
+            const dataSelect = jsonData[id]
+            res.json(dataSelect)
+        }catch(err){
             console.log('Error al leer')
         }
+
+    }else{
+        try{
+            const data = fs.readFileSync(__dirname + '/../products.json', 'utf8')
+            const jsonData = JSON.parse(data)
+            res.json(jsonData)
+        }catch(err){
+            console.log('Error al leer')
+        }
+    }
 })
 
 router.post('/', (req, res) => {
